@@ -23,6 +23,8 @@
   "app.docs.components.icon.outlined": "线框风格",
   "app.docs.components.icon.filled": "实底风格",
   "app.docs.components.icon.two-tone": "双色风格",
+  "app.docs.components.icon.gray": "灰色风格",
+  "app.docs.components.icon.colored": "彩色风格",
   "app.components.overview.search": "搜索组件",
   "app.docs.components.icon.category.direction": "方向性图标",
   "app.docs.components.icon.category.suggestion": "提示建议性图标",

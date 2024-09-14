@@ -1,0 +1,7 @@
+// This icon file is generated automatically.
+
+import { IconDefinition } from '../types';
+
+const TencentCloudColored: IconDefinition = {"icon":{"tag":"svg","attrs":{"viewBox":"0 0 16 16","focusable":"false"},"children":[{"tag":"g","attrs":{"fill-rule":"evenodd","fill":"none"},"children":[{"tag":"path","attrs":{"d":"M0 0h16v16H0z"}},{"tag":"g","attrs":{"fill-rule":"nonzero"},"children":[{"tag":"path","attrs":{"d":"M12.68 10.76c-.2.21-.61.52-1.33.52H6.91L9.49 8.8c.1-.1.36-.36.62-.57.51-.46.93-.51 1.29-.51.51 0 .92.2 1.28.51a1.74 1.74 0 010 2.52m.88-3.34a2.87 2.87 0 00-2.11-.93c-.72 0-1.34.26-1.9.67-.21.2-.52.41-.78.72l-4.63 4.53c.26.05.57.05.82.05h5.61c.41 0 .72 0 1.03-.05a3.16 3.16 0 001.9-.82 2.94 2.94 0 00.06-4.17","fill":"#00A3FF"}},{"tag":"path","attrs":{"d":"M6.35 7.11a2.87 2.87 0 00-3.91.3 3 3 0 00.05 4.23c.52.46 1.03.72 1.65.77l1.18-1.13h-.67c-.66-.05-1.08-.26-1.33-.52a1.85 1.85 0 01-.05-2.57 1.7 1.7 0 011.28-.51c.31 0 .77.05 1.24.51.2.2.77.62.97.82h.06l.77-.77V8.2c-.36-.36-.93-.82-1.24-1.08","fill":"#00C8DC"}},{"tag":"path","attrs":{"d":"M11.76 5.82A4.02 4.02 0 008 3.2c-2 0-3.6 1.5-3.91 3.34.15 0 .3-.05.51-.05s.47.06.67.06A2.76 2.76 0 018 4.32c1.13 0 2.11.67 2.57 1.65 0 0 .05.05.05 0 .36-.05.78-.16 1.14-.16q0 .08 0 0","fill":"#006EFF"}}]}]}]},"name":"tencent-cloud","theme":"colored"};
+
+export default TencentCloudColored;

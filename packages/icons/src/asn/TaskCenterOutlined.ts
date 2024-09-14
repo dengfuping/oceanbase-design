@@ -1,0 +1,7 @@
+// This icon file is generated automatically.
+
+import { IconDefinition } from '../types';
+
+const TaskCenterOutlined: IconDefinition = {"icon":{"tag":"svg","attrs":{"viewBox":"64 64 896 896","xmlns:xlink":"http://www.w3.org/1999/xlink","focusable":"false"},"children":[{"tag":"defs","attrs":{},"children":[{"tag":"path","attrs":{"d":"M0 0h768v766.1H0z","id":"a"}},{"tag":"path","attrs":{"d":"M128 895.05h768v-766.1H128z","id":"c"}}]},{"tag":"g","attrs":{"fill-rule":"evenodd"},"children":[{"tag":"path","attrs":{"d":"M0 0h1024v1024H0z"}},{"tag":"g","attrs":{"transform":"translate(128 128.96)"},"children":[{"tag":"mask","attrs":{"id":"b"},"children":[{"tag":"use","attrs":{"xlink:href":"#a"}}]},{"tag":"path","attrs":{"d":"M736 0H32A32 32 0 000 32v702.1a32 32 0 0032 32h704a32 32 0 0032-32V32a32 32 0 00-32-32M64 702.1h640V64H64z","mask":"url(#b)"}}]},{"tag":"path","attrs":{"d":"M726 543.31H426c-5.52 0-10-3.58-10-8v-48c0-4.42 4.48-8 10-8h300c5.52 0 10 3.58 10 8v48c0 4.42-4.48 8-10 8m0 193.38H426c-5.52 0-10-3.59-10-8v-48c0-4.42 4.48-8 10-8h300c5.52 0 10 3.58 10 8v48c0 4.41-4.48 8-10 8M344 543.3h-48a8 8 0 01-8-8v-48a8 8 0 018-8h48a8 8 0 018 8v48a8 8 0 01-8 8m0 193.38h-48a8 8 0 01-8-8v-48a8 8 0 018-8h48a8 8 0 018 8v48a8 8 0 01-8 8"}},{"tag":"mask","attrs":{"id":"d"},"children":[{"tag":"use","attrs":{"xlink:href":"#c"}}]},{"tag":"path","attrs":{"d":"M185.7 384.2H852.7v-64H185.7z","mask":"url(#d)"}}]}]},"name":"task-center","theme":"outlined"};
+
+export default TaskCenterOutlined;

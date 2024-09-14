@@ -1,0 +1,7 @@
+// This icon file is generated automatically.
+
+import { IconDefinition } from '../types';
+
+const CodeSegmentColored: IconDefinition = {"icon":{"tag":"svg","attrs":{"viewBox":"64 64 896 896","xmlns:xlink":"http://www.w3.org/1999/xlink","focusable":"false"},"children":[{"tag":"defs","attrs":{},"children":[{"tag":"path","attrs":{"d":"M0 0h319.4v623.55H0z","id":"a"}}]},{"tag":"g","attrs":{"fill-rule":"evenodd","fill":"none"},"children":[{"tag":"path","attrs":{"d":"M0 0h1024v1024H0z"}},{"tag":"path","attrs":{"d":"M621.5 217.45l-219 589.1","fill":"#FFF"}},{"tag":"g","attrs":{"transform":"translate(352.3 200.23)"},"children":[{"tag":"mask","attrs":{"fill":"#fff","id":"b"},"children":[{"tag":"use","attrs":{"xlink:href":"#a"}}]},{"tag":"path","attrs":{"d":"M95.2 623.04L5.2 589.6a8 8 0 01-4.7-10.28L213.9 5.2A8 8 0 01224.2.52l89.98 33.44a8 8 0 014.71 10.29l-213.4 574.1a8 8 0 01-10.3 4.7","fill":"#0AC185","mask":"url(#b)"}}]},{"tag":"path","attrs":{"d":"M265.83 773.81a8 8 0 01-11.31.2L25.08 552.26a56 56 0 010-80.54L254.52 250a8 8 0 0111.31.19l66.72 69.03a8 8 0 01-.2 11.31L144.58 512l187.77 181.47a8 8 0 01.2 11.31zm497.9 5.75l-77.84-80.53L879.42 512 685.89 324.97l77.84-80.53 235.18 227.3a56 56 0 010 80.53z","fill":"#006AFF"}}]}]},"name":"code-segment","theme":"colored"};
+
+export default CodeSegmentColored;

@@ -1,0 +1,7 @@
+// This icon file is generated automatically.
+
+import { IconDefinition } from '../types';
+
+const ObClusterGray: IconDefinition = {"icon":{"tag":"svg","attrs":{"viewBox":"64 64 896 896","focusable":"false"},"children":[{"tag":"g","attrs":{"fill-rule":"evenodd","fill":"none"},"children":[{"tag":"path","attrs":{"d":"M0 0h1024v1024H0z"}},{"tag":"path","attrs":{"d":"M721 405.04V200.96A32 32 0 00705 173.25l-177-102.03a32 32 0 00-31.97 0L318.98 173.24a32 32 0 00-16.02 27.73v204.07a32 32 0 0016.02 27.72L496 534.8a32 32 0 0016 4.28 32 32 0 0016-4.29l176.99-102.02A32 32 0 00721 405.04","fill":"#5C6B8A"}},{"tag":"path","attrs":{"d":"M944.8 591.23L767.76 489.2a32 32 0 00-31.96 0l-177 102.04a32 32 0 00-16.03 27.72v204.07a32 32 0 0016.02 27.73l177 102.02a32 32 0 0016 4.29 32 32 0 0015.99-4.3L944.8 850.77a32 32 0 0016.02-27.73V618.96a32 32 0 00-16.02-27.73","fill":"#8592AD"}},{"tag":"path","attrs":{"d":"M465.18 591.24L288.17 489.2a32 32 0 00-31.96 0L79.2 591.24a32 32 0 00-16.02 27.72v204.07a32 32 0 0016.02 27.73l176.99 102.02a32.02 32.02 0 0016 4.29 32.02 32.02 0 0016-4.3l176.99-102.01a32 32 0 0016.01-27.73V618.96a32 32 0 00-16.02-27.72","fill":"#5C6B8A"}}]}]},"name":"ob-cluster","theme":"gray"};
+
+export default ObClusterGray;

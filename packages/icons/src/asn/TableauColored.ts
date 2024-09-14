@@ -1,0 +1,7 @@
+// This icon file is generated automatically.
+
+import { IconDefinition } from '../types';
+
+const TableauColored: IconDefinition = {"icon":{"tag":"svg","attrs":{"viewBox":"0 0 54 54","focusable":"false"},"children":[{"tag":"g","attrs":{"fill-rule":"evenodd","fill":"none"},"children":[{"tag":"path","attrs":{"d":"M0 0h54v54H0z"}},{"tag":"path","attrs":{"d":"M25.52 35.8h2.96v-8h7.43v-2.86h-7.43v-8.02h-2.96v8.02h-7.34v2.85h7.34z","fill-rule":"nonzero","fill":"#E8762D"}},{"tag":"path","attrs":{"d":"M11.82 47.39h2.5v-7.13h6.64v-2.22h-6.63v-7.22h-2.5v7.22H5.18v2.22h6.63z","fill-rule":"nonzero","fill":"#C72037"}},{"tag":"path","attrs":{"d":"M39.67 21.65h2.5v-7.13h6.73v-2.14h-6.72V5.17h-2.5v7.21h-6.64v2.14h6.63z","fill-rule":"nonzero","fill":"#5B879B"}},{"tag":"path","attrs":{"d":"M25.97 53h2.15v-5.08h4.57v-1.87h-4.57v-5.08h-2.15v5.08h-4.48v1.87h4.48z","fill-rule":"nonzero","fill":"#5C6692"}},{"tag":"path","attrs":{"d":"M11.91 21.65h2.33v-7.22h6.72v-2.05h-6.72V5.17H11.9v7.21H5.19v2.05h6.72z","fill-rule":"nonzero","fill":"#EB9129"}},{"tag":"path","attrs":{"d":"M47.28 32.33h2.15v-4.98H54v-1.96h-4.57v-5h-2.15v5h-4.47v1.96h4.47z","fill-rule":"nonzero","fill":"#5C6692"}},{"tag":"path","attrs":{"d":"M39.67 47.39h2.5v-7.13h6.73v-2.22h-6.72v-7.22h-2.5v7.22h-6.64v2.22h6.63z","fill":"#1F457E"}},{"tag":"path","attrs":{"d":"M32.33 6.41V4.9h-4.48V0h-1.61v4.9h-4.48v1.51h4.48v4.9h1.61v-4.9zM4.48 31.98h1.61v-4.9h4.48v-1.51H6.09v-4.81H4.48v4.8H0v1.6l4.48-.08z","fill-rule":"nonzero","fill":"#7199A6"}}]}]},"name":"tableau","theme":"colored"};
+
+export default TableauColored;

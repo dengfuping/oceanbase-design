@@ -1,0 +1,7 @@
+// This icon file is generated automatically.
+
+import { IconDefinition } from '../types';
+
+const ProjectOutlined: IconDefinition = {"icon":{"tag":"svg","attrs":{"viewBox":"64 64 896 896","xmlns:xlink":"http://www.w3.org/1999/xlink","focusable":"false"},"children":[{"tag":"defs","attrs":{},"children":[{"tag":"path","attrs":{"d":"M0 0h768v766.1H0z","id":"a"}}]},{"tag":"g","attrs":{"fill-rule":"evenodd"},"children":[{"tag":"path","attrs":{"d":"M0 0h1024v1024H0z"}},{"tag":"g","attrs":{"transform":"translate(128 128.96)"},"children":[{"tag":"mask","attrs":{"id":"b"},"children":[{"tag":"use","attrs":{"xlink:href":"#a"}}]},{"tag":"path","attrs":{"d":"M736 0H32A32 32 0 000 32v702.1a32 32 0 0032 32h704a32 32 0 0032-32V32a32 32 0 00-32-32M64 702.1h640V64H64z","mask":"url(#b)"}}]},{"tag":"path","attrs":{"d":"M696 351.55H456a8 8 0 01-8-8v-48a8 8 0 018-8h240a8 8 0 018 8v48a8 8 0 01-8 8m0 192H456a8 8 0 01-8-8v-48a8 8 0 018-8h240a8 8 0 018 8v48a8 8 0 01-8 8m0 194.28H456a8 8 0 01-8-8v-48a8 8 0 018-8h240a8 8 0 018 8v48a8 8 0 01-8 8M376 351.54h-48a8 8 0 01-8-8v-48a8 8 0 018-8h48a8 8 0 018 8v48a8 8 0 01-8 8m0 192h-48a8 8 0 01-8-8v-48a8 8 0 018-8h48a8 8 0 018 8v48a8 8 0 01-8 8m0 194.29h-48a8 8 0 01-8-8v-48a8 8 0 018-8h48a8 8 0 018 8v48a8 8 0 01-8 8"}}]}]},"name":"project","theme":"outlined"};
+
+export default ProjectOutlined;

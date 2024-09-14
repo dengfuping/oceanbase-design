@@ -1,0 +1,7 @@
+// This icon file is generated automatically.
+
+import { IconDefinition } from '../types';
+
+const IntegrationOutlined: IconDefinition = {"icon":{"tag":"svg","attrs":{"viewBox":"0 0 16 16","focusable":"false"},"children":[{"tag":"defs","attrs":{},"children":[{"tag":"path","attrs":{"d":"M0 0h5.6v5.62H0z","id":"a"}}]},{"tag":"g","attrs":{"fill-rule":"evenodd"},"children":[{"tag":"path","attrs":{"d":"M0 0h16v16H0z"}},{"tag":"g","attrs":{},"children":[{"tag":"path","attrs":{"d":"M4.88 5.62L.04.74a.13.13 0 010-.18L.57.04a.13.13 0 01.18 0L5.6 4.92z","mask":"url(#mask-2)","transform":"translate(1.7 1.7)"}},{"tag":"path","attrs":{"d":"M7 7.47H2.12A.13.13 0 012 7.34V6.6c0-.07.06-.12.13-.12H6.5V2.13c0-.07.06-.13.13-.13h.75c.06 0 .12.06.12.13v4.84a.5.5 0 01-.5.5M2.3 14.26l-.54-.52a.13.13 0 010-.18l4.85-4.88.71.7-4.85 4.88a.13.13 0 01-.18 0"}},{"tag":"path","attrs":{"d":"M7.38 14h-.75a.13.13 0 01-.13-.12V9.53H2.15a.13.13 0 01-.12-.12v-.75c0-.07.05-.13.12-.13H7a.5.5 0 01.5.5v4.85a.13.13 0 01-.12.12M13.56 14.26L8.7 9.38l.7-.7 4.86 4.88a.13.13 0 010 .18l-.54.52a.13.13 0 01-.17 0"}},{"tag":"path","attrs":{"d":"M8.63 14a.13.13 0 01-.13-.12V9.03a.5.5 0 01.5-.5h4.88c.06 0 .12.06.12.13v.75a.13.13 0 01-.13.12H9.5v4.35a.13.13 0 01-.13.12zM9.39 7.32l-.71-.7 4.85-4.88a.13.13 0 01.17 0l.54.53a.13.13 0 010 .17z"}},{"tag":"path","attrs":{"d":"M9 7.47a.5.5 0 01-.5-.5V2.13c0-.07.06-.13.13-.13h.74c.07 0 .13.06.13.13v4.34h4.35c.07 0 .12.05.12.12v.75a.13.13 0 01-.12.13z"}}]}]}]},"name":"integration","theme":"outlined"};
+
+export default IntegrationOutlined;

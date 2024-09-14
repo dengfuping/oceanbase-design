@@ -1,0 +1,7 @@
+// This icon file is generated automatically.
+
+import { IconDefinition } from '../types';
+
+const DistributedTransactionGray: IconDefinition = {"icon":{"tag":"svg","attrs":{"viewBox":"64 64 896 896","focusable":"false"},"children":[{"tag":"g","attrs":{"fill-rule":"evenodd","fill":"none"},"children":[{"tag":"path","attrs":{"d":"M0 0h1024v1024H0z"}},{"tag":"path","attrs":{"d":"M833.23 653.28l73.64 40.41c22.12 12.14 22.15 43.9.06 56.08L542.9 950.42a64 64 0 01-61.8 0L117.07 749.77c-22.09-12.18-22.06-43.94.06-56.08l73.64-40.41L464.2 803.99a99.3 99.3 0 0047.81 12.3 99.28 99.28 0 0047.8-12.3z","fill":"#8592AD"}},{"tag":"path","attrs":{"d":"M190.77 443.09l273.42 150.7A99.29 99.29 0 00512 606.1a99.3 99.3 0 0047.8-12.3l273.43-150.71 73.64 40.4c22.12 12.15 22.15 43.9.06 56.09L542.9 740.23a64 64 0 01-61.8 0L117.07 539.58c-22.09-12.18-22.06-43.94.06-56.08zM542.8 283.7l224 122.92-237.88 131.12A35.02 35.02 0 01512 542.1a35.02 35.02 0 01-16.91-4.35L257.2 406.63l224-122.92a64 64 0 0161.58 0","fill":"#5C6B8A"}},{"tag":"path","attrs":{"d":"M481.1 530.04L117.08 329.39c-22.09-12.18-22.06-43.94.06-56.08L481.2 73.52a64 64 0 0161.58 0l364.08 199.79c22.12 12.14 22.15 43.9.06 56.08L542.9 530.04a64 64 0 01-61.8 0","fill":"#5C6B8A"}}]}]},"name":"distributed-transaction","theme":"gray"};
+
+export default DistributedTransactionGray;

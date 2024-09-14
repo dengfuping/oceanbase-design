@@ -1,0 +1,7 @@
+// This icon file is generated automatically.
+
+import { IconDefinition } from '../types';
+
+const ObTenantGray: IconDefinition = {"icon":{"tag":"svg","attrs":{"viewBox":"64 64 896 896","xmlns:xlink":"http://www.w3.org/1999/xlink","focusable":"false"},"children":[{"tag":"defs","attrs":{},"children":[{"tag":"path","attrs":{"d":"M117.73 321.56L313.94 436.5v187.44L512 738.09l198.05-114.15V436.5l196.22-114.93V720.8a32 32 0 01-15.6 27.48l-.42.24-362.27 208.85a32 32 0 01-31.96 0L133.75 748.53a32 32 0 01-16.02-27.72zM512 359.78l134.05 77.27v149.9L512 664.22l-134.06-77.26V437.04zM496.02 66.62a32 32 0 0131.96 0L874.17 266.2 677.58 381.35 512 285.9 346.4 381.35 149.83 266.2z","id":"a"}}]},{"tag":"g","attrs":{"fill-rule":"evenodd","fill":"none"},"children":[{"tag":"path","attrs":{"d":"M0 0h1024v1024H0z"}},{"tag":"mask","attrs":{"fill":"#fff","id":"b"},"children":[{"tag":"use","attrs":{"xlink:href":"#a"}}]},{"tag":"use","attrs":{"fill":"#5C6B8A","xlink:href":"#a"}},{"tag":"path","attrs":{"d":"M532 480l374.27-170.12v-6.69a32 32 0 00-16.02-27.72L527.98 66.62a32 32 0 00-31.96 0L133.75 275.47a31.98 31.98 0 00-15.97 27z","fill":"#8592AD","mask":"url(#b)"}},{"tag":"path","attrs":{"d":"M377.94 578.52V445.48a16 16 0 018.01-13.86l118.06-68.04a16 16 0 0115.98 0l118.05 68.04a16 16 0 018.01 13.86v133.04a16 16 0 01-8 13.86l-118.06 68.04a16 16 0 01-15.98 0l-118.06-68.04a16 16 0 01-8-13.86","fill":"#5C6B8A"}}]}]},"name":"ob-tenant","theme":"gray"};
+
+export default ObTenantGray;

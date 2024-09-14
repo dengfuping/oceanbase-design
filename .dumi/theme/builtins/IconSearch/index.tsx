@@ -1,6 +1,6 @@
 import React, { useCallback, useMemo, useState } from 'react';
 import type { CSSProperties } from 'react';
-import Icon, * as ObIcons from '@oceanbase/icons';
+import Icon, * as AllIcons from '@oceanbase/icons';
 import * as AntdIcons from '@ant-design/icons';
 import type { IntlShape } from 'react-intl';
 import { Segmented, Input, Empty, Affix } from '@oceanbase/design';
@@ -10,7 +10,7 @@ import { useIntl } from 'dumi';
 import debounce from 'lodash/debounce';
 import difference from 'lodash/difference';
 import Category from './Category';
-import { FilledIcon, OutlinedIcon, TwoToneIcon } from './themeIcons';
+import { FilledIcon, OutlinedIcon, TwoToneIcon, ColoredIcon } from './themeIcons';
 import type { CategoriesKeys } from './fields';
 import { categories } from './fields';
 import useSiteToken from '../../../hooks/useSiteToken';
@@ -19,10 +19,9 @@ export enum ThemeType {
   Filled = 'Filled',
   Outlined = 'Outlined',
   TwoTone = 'TwoTone',
+  Gray = 'Gray',
   Colored = 'Colored',
 }
-
-const allIcons: { [key: string]: any } = ObIcons;
 
 const useStyle = () => ({
   iconSearchAffix: css`
@@ -48,6 +47,16 @@ const options = (intl: IntlShape): SegmentedProps['options'] => [
     icon: <Icon component={TwoToneIcon} />,
     label: intl.formatMessage({ id: 'app.docs.components.icon.two-tone' }),
   },
+  {
+    value: ThemeType.Gray,
+    icon: <Icon component={TwoToneIcon} />,
+    label: intl.formatMessage({ id: 'app.docs.components.icon.two-tone' }),
+  },
+  {
+    value: ThemeType.Colored,
+    icon: <Icon component={TwoToneIcon} />,
+    label: intl.formatMessage({ id: 'app.docs.components.icon.colored' }),
+  },
 ];
 
 interface IconSearchState {
@@ -63,7 +72,7 @@ const IconSearch: React.FC = () => {
     theme: ThemeType.Outlined,
   });
 
-  const newIconNames: string[] = difference(Object.keys(allIcons), Object.keys(AntdIcons));
+  const newIconNames: string[] = difference(Object.keys(AllIcons), Object.keys(AntdIcons));
 
   const handleSearchIcon = debounce((e: React.ChangeEvent<HTMLInputElement>) => {
     setDisplayState(prevState => ({ ...prevState, searchKey: e.target.value }));
@@ -96,7 +105,9 @@ const IconSearch: React.FC = () => {
 
         return {
           category: key,
-          icons: iconList.map(iconName => iconName + theme).filter(iconName => allIcons[iconName]),
+          icons: iconList
+            .map(iconName => iconName + theme)
+            .filter(iconName => newIconNames.includes(iconName)),
         };
       })
       .filter(({ icons }) => !!icons.length)
@@ -106,7 +117,8 @@ const IconSearch: React.FC = () => {
           title={category as CategoriesKeys}
           theme={theme}
           icons={icons}
-          newIcons={newIconNames}
+          // newIcons={newIconNames}
+          newIcons={[]}
         />
       ));
     return categoriesResult.length ? categoriesResult : <Empty style={{ margin: '2em 0' }} />;
